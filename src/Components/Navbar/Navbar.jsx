@@ -40,7 +40,7 @@ const Navbar = () => {
           <AiFillGithub />
         </a>
         <a className="app__flex"
-          href="https://www.facebook.com/muhammadnoman.awan.73?mibextid=ZbWKwL"
+          href="http://www.facebook.com/muhammadnoman.awan.73?mibextid=ZbWKwL"
           target="_blank" rel="noreferrer"
         >
           <AiFillFacebook />
