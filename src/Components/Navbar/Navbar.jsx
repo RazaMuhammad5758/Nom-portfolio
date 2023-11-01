@@ -36,7 +36,7 @@ const Navbar = () => {
       <a  className="app__flex" href="https://www.linkedin.com/in/muhammad-noman-770825277/" target="_blank" rel="noreferrer">
           <AiFillLinkedin />
         </a>
-        <a  className="app__flex"href="https://github.com/Noman-Nom" target="_blank" rel="noreferrer">
+        <a  className="app__flex"href="github.com/Noman-Nom" target="_blank" rel="noreferrer">
           <AiFillGithub />
         </a>
         <a className="app__flex"
