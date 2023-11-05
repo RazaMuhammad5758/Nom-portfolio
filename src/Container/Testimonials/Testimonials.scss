@@ -14,7 +14,7 @@
     box-shadow: rgba(14, 190, 233, 0.8) 0px 3px 6px, rgb(93, 135, 255, 0.8) 0px 3px 6px;
     transition: all .3s ease-in-out;
 
-    img{
+    img {
         width: 120px;
         height: 120px;
         border-radius: 50%;
@@ -23,23 +23,26 @@
 
     @media screen and (min-width:2000px) {
         min-height: 450px;
-        img{
+
+        img {
             width: 150px;
             height: 150px;
         }
-        
+
     }
+
     @media screen and (max-width:850px) {
         width: 100%;
-        
+
     }
+
     @media screen and (max-width:600px) {
         flex-direction: column;
-        
+
     }
 }
 
-.app__testimonials-content{
+.app__testimonials-content {
     flex: 1;
     height: 100%;
 
@@ -51,31 +54,32 @@
     justify-content: space-around;
     align-items: flex-start;
 
-    p{
+    p {
         font-size: 1.25rem;
         line-height: 2rem;
         color: var(--black-color);
         font-family: var(--font-base);
 
     }
-    h4{
+
+    h4 {
         font-weight: 600;
         color: var(--secondary-color);
         margin-top: 2rem;
     }
 
-    h5{
+    h5 {
         font-weight: 400;
         color: var(--gray-color);
         margin-top: 5px;
     }
 }
 
-.app__testimonials-btns{
+.app__testimonials-btns {
     flex-direction: row;
     margin-top: 1rem;
 
-    div{
+    div {
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -85,16 +89,17 @@
         transition: all .4s ease-in-out;
         cursor: pointer;
 
-        svg{
+        svg {
             width: 25px;
             height: 25px;
             color: var(--secondary-color);
-            
+
         }
-        &:hover{
+
+        &:hover {
             background-color: var(--secondary-color);
 
-            svg{
+            svg {
                 color: var(--white-color);
             }
         }
